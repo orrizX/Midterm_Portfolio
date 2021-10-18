@@ -50,13 +50,14 @@
   position: absolute;
   width: 282.59px;
   height: 111.77px;
-  left: 287px;
-  top: 407.44px;
+  border-top: 5px solid transparent;
+  border-left: 100px solid #FF5C00;
+  border-bottom: 120px solid transparent;
+  transform: rotate(-20.76deg);
   
-  background: #FF5C00;
-  border: 3px solid #000000;
+  
   box-sizing: border-box;
-  transform: rotate(-45.76deg);
+
   }
   
   .menuItem {
