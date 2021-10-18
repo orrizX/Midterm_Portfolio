@@ -8,20 +8,58 @@ h1::before {
     transform-origin: bottom left;
   }
   
-  h1::before {
+  h1.text1::before {
     content: " ";
     display: block;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     inset: 0 0 0 0;
-    background: hsl(200 100% 80%);
+    background: rgb(169, 231, 255);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  h1.text2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgb(189, 255, 169);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  h1.text3::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgb(249, 255, 169);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+
+  h1.text4::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgb(255, 208, 169);
     z-index: -1;
     transition: transform .3s ease;
   }
   
   h1 {
     position: relative;
-    font-size: 5rem;
+    font-size: 93px;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 30px;
   }
   
   html {
@@ -32,7 +70,7 @@ h1::before {
   body {
     min-block-size: 100%;
     min-inline-size: 100%;
-    margin: 10px;
+    margin: none;
     box-sizing: border-box;
     display: grid;
     place-content: center;
