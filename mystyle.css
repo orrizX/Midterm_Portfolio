@@ -266,5 +266,119 @@
         cursor: pointer;
       }
   }
+
+  @media screen and (max-width: 900px) {
+    .searchButton {
+        background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+        background-color: white;
+        border: 1px solid rgb(24, 24, 24);
+        border-radius: 10px;
+        margin: 4px 20px;
+        margin-left: 200px;
+        padding: 0 16px;
+        height: 500px;
+        min-width: 500px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .Nav {
+        position: fixed;
+        display: flex;
+        height: 50px;
+        padding: 20px;
+        padding-top: 100px;
+      }
+
+      .menuItem {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 15px;
+        vertical-align: top;
+        color: rgb(24, 24, 24);
+      }
+    
+      .menuItem1 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(169, 231, 255);
+      }
+    
+      .menuItem2 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(189, 255, 169);
+      }
+
+      .Logo{
+        position: fixed;
+        margin-top: -10px;
+        margin-left: 0px;
+        width: 200px;
+        height: 125px;
+      }
+  }
+
+
+
+  @media screen and (max-width: 700px) {
+    .searchButton {
+        background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+        background-color: white;
+        border: 1px solid rgb(24, 24, 24);
+        border-radius: 10px;
+        margin: 4px 20px;
+        margin-left: 180px;
+        padding: 0 16px;
+        height: 500px;
+        min-width: 400px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .Nav {
+        position: fixed;
+        display: flex;
+        height: 50px;
+        padding: 20px;
+        padding-top: 100px;
+      }
+
+      .menuItem {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 15px;
+        vertical-align: top;
+        color: rgb(24, 24, 24);
+      }
+    
+      .menuItem1 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(169, 231, 255);
+      }
+    
+      .menuItem2 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(189, 255, 169);
+      }
+
+      .Logo{
+        position: fixed;
+        margin-top: -10px;
+        margin-left: 0px;
+        width: 200px;
+        height: 125px;
+      }
+  }
   
   
