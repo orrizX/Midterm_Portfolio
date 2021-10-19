@@ -4,11 +4,12 @@
   }
   
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
   .topNav {
     position: relative;
+    display: flex;
     height: 50px;
     padding: 15px;
   }
@@ -19,10 +20,10 @@
     padding-top: 50px;
   }
   
-  .rightSide {
+  .leftSide {
     color: #262626;
     list-style: none;
-    float: right;
+    float: left;
   }
   
   .midSide {
@@ -30,43 +31,14 @@
     list-style: none;
     text-align: center;
   }
-  
-  .oval{
-  position: absolute;
-  width: 422.38px;
-  height: 191.51px;
-  left: 121px;
-  top: 306.3px;
-  
-  background: #FFF500;
-  border: 3px solid #000000;
-  box-sizing: border-box;
-  transform: rotate(-41.58deg);
-  border-radius: 50%;
-  
-  }
-  
-  .triangle1{
-  position: absolute;
-  width: 282.59px;
-  height: 111.77px;
-  border-top: 5px solid transparent;
-  border-left: 100px solid #FF5C00;
-  border-bottom: 120px solid transparent;
-  transform: rotate(-20.76deg);
-  
-  
-  box-sizing: border-box;
 
-  }
   
   .menuItem {
-    display: inline-block;
-    margin: 0 10px;
+    display: flex;
+    margin: 10px 10px;
     font-family: 13px;
     vertical-align: top;
     color: #000;
-    opacity: 0.75;
   }
   
   
