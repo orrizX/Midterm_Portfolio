@@ -54,7 +54,7 @@ h1::before {
   
   h1 {
     position: relative;
-    font-size: 93px;
+    font-size: 70px;
     color:rgb(24, 24, 24);
   }
 
@@ -83,5 +83,24 @@ h1::before {
     body {
       grid-auto-flow: column;
     }
+  }
+
+  @media screen and (min-width: 1120px) {
+
+    h1 {
+      position: relative;
+      font-size: 93px;
+      color:rgb(24, 24, 24);
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+
+    h1 {
+      position: relative;
+      font-size: 50px;
+      color:rgb(24, 24, 24);
+    }
+
   }
   
