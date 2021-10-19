@@ -55,11 +55,13 @@ h1::before {
   h1 {
     position: relative;
     font-size: 93px;
+    color:rgb(24, 24, 24);
   }
 
   h2 {
     position: absolute;
     font-size: 30px;
+    color:rgb(24, 24, 24);
   }
   
   html {
