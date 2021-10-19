@@ -11,34 +11,30 @@
     position: fixed;
     display: flex;
     height: 50px;
-    padding: 25px;
-  }
-  
-  .botNav {
-    position: relative;
-    height: 20px;
-    padding-top: 50px;
+    padding: 40px;
+    padding-top: 100px;
   }
   
   .leftSide {
-    color: #262626;
+    color: rgb(24, 24, 24);
     list-style: none;
     float: left;
   }
-  
-  .midSide {
-    color: #262626;
-    list-style: none;
-    text-align: center;
-  }
 
+  .Logo{
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 15px;
+    width: 240px;
+    height: 150px;
+  }
   
   .menuItem {
     display: flex;
-    margin: 10px 20px;
+    margin: 30px 20px;
     font-size: 20px;
     vertical-align: top;
-    color: #000;
+    color: rgb(24, 24, 24);
   }
   
   
