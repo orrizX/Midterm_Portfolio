@@ -92,7 +92,7 @@
     box-shadow: 10px;
     border-radius: 10px;
     z-index: 3;
-    height: 44px;
+    height: 80px;
     margin: 0 auto;
   }
   
@@ -108,8 +108,8 @@
   }
   
   .subGroup {
-      display: flex;  
-    width: 1030px;
+    display: flex;  
+    width: 1200px;
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
@@ -202,17 +202,17 @@
   }
   
   .searchButton {
-    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-    background-color: #f3f3f3;
-    border: 1px solid #f3f3f3;
+    background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+    background-color: white;
+    border: 1px solid rgb(24, 24, 24);
     border-radius: 10px;
     margin: 4px 20px;
+    margin-left: 300px;
     padding: 0 16px;
-    height: 150px;
-    min-width: 300px;
+    height: 500px;
+    min-width: 800px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 1px 2px 3px #d6d6d6;
   }
   
   .searchButton1 {
