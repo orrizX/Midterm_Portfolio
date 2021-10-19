@@ -8,10 +8,10 @@
   }
   
   .Nav {
-    position: relative;
+    position: fixed;
     display: flex;
     height: 50px;
-    padding: 15px;
+    padding: 25px;
   }
   
   .botNav {
@@ -35,8 +35,8 @@
   
   .menuItem {
     display: flex;
-    margin: 10px 10px;
-    font-family: 13px;
+    margin: 10px 20px;
+    font-size: 20px;
     vertical-align: top;
     color: #000;
   }
