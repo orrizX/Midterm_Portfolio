@@ -246,9 +246,25 @@
     margin-left: 300px;
     padding: 0 16px;
     height: 500px;
-    min-width: 800px;
+    min-width: 600px;
     text-align: center;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 1120px) {
+    .searchButton {
+        background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+        background-color: white;
+        border: 1px solid rgb(24, 24, 24);
+        border-radius: 10px;
+        margin: 4px 20px;
+        margin-left: 300px;
+        padding: 0 16px;
+        height: 500px;
+        min-width: 800px;
+        text-align: center;
+        cursor: pointer;
+      }
   }
   
   
