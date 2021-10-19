@@ -72,6 +72,22 @@
     vertical-align: top;
     background-color: rgb(189, 255, 169);
   }
+
+  .menuItem3 {
+    display: flex;
+    margin: 30px 20px;
+    font-size: 25px;
+    vertical-align: top;
+    background-color: rgb(249, 255, 169);
+  }
+
+  .menuItem4 {
+    display: flex;
+    margin: 30px 20px;
+    font-size: 25px;
+    vertical-align: top;
+    background-color: rgb(255, 208, 169);
+  }
   
   
   .main {
@@ -314,6 +330,22 @@
         background-color: rgb(189, 255, 169);
       }
 
+      .menuItem3 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 19px;
+        vertical-align: top;
+        background-color: rgb(249, 255, 169);
+      }
+    
+      .menuItem4 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(255, 208, 169);
+      }
+
       .Logo{
         position: fixed;
         margin-top: -10px;
@@ -370,6 +402,22 @@
         font-size: 20px;
         vertical-align: top;
         background-color: rgb(189, 255, 169);
+      }
+
+      .menuItem3 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 19px;
+        vertical-align: top;
+        background-color: rgb(249, 255, 169);
+      }
+    
+      .menuItem4 {
+        display: flex;
+        margin: 30px 20px;
+        font-size: 20px;
+        vertical-align: top;
+        background-color: rgb(255, 208, 169);
       }
 
       .Logo{
