@@ -104,3 +104,16 @@ h1::before {
 
   }
   
+  .circle {
+    position: fixed;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #fdfffc;
+    width: 10px;
+    height: 10px;
+    left: 20px;
+    right: 0;
+    pointer-events: none;
+  }
+  
+  
